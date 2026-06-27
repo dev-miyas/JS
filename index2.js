@@ -50,7 +50,7 @@ console.log(sum); // 15
 
 //JS import/export
 //importing a module
-import { add, subtract } from "../math.js";
+import { add, subtract } from "./math.js";
 const result1 = add(5, 3);
 const result2 = subtract(10, 4);
 console.log(result1); // 8
